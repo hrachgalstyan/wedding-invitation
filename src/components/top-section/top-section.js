@@ -8,20 +8,20 @@ export default function TopSection() {
       <section className="top_section">
         <div className="background_img_1"></div>
         <div className="top">
-          <Image alt="petur" src={Petur} height={135} width={135} />
+          <Image data-aos="zoom-in" data-aos-duration="2000" alt="petur" src={Petur} height={135} width={135}/>
           <div className="names">
-            <p data-aos="fade-right" className="regular">ՀՐԱՉ</p>
-            <br />
-            <p data-aos="flip-up" className="wien">ԵՎ</p>
-            <br />
-            <p data-aos="fade-left" className="regular">ՌՈՒԶԱՆՆԱ</p>
+            <p data-aos="fade-right" data-aos-duration="2000" className="regular">ՀՐԱՉ</p>
+            <br/>
+            <p data-aos="flip-up" data-aos-duration="2000" className="wien">ԵՎ</p>
+            <br/>
+            <p data-aos="fade-left" data-aos-duration="2000" className="regular">ՌՈՒԶԱՆՆԱ</p>
           </div>
           <span className="divider"></span>
           <div className="reason">
-            <p className="wien we_are_marry">
+            <p data-aos="fade-left" data-aos-duration="2000" className="wien we_are_marry">
               մենք ամուսնանում ենք
             </p>
-            <p className="regular date">14 | 04 | 2024</p>
+            <p data-aos="fade-right" data-aos-duration="2000" className="regular date_1">14 | 04 | 2024</p>
           </div>
           <Image
             className="arrow"

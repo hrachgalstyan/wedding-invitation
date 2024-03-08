@@ -1,0 +1,99 @@
+.dress_code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 69px 0;
+    gap: 24px;
+}
+.subtitles {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    max-width: 314px;
+    font-size: 14px !important;
+    line-height: 17px;
+    font-weight: 700;
+}
+
+.dress_code_item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 89px;
+    padding: 48px 0;
+}
+
+.colors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7px;
+    list-style-type: none;
+}
+
+.color {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.color_girl_1 {
+    background-color: black;
+}
+.color_girl_2 {
+    background-color: #757575;
+}
+.color_girl_3 {
+    background-image: url(../../assets/images/dresscode_3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.color_guy_1 {
+    background-color: black;
+}
+.color_guy_2 {
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    overflow-x: scroll;
+    gap: 14px;
+    padding: 0 92px 0 4px;
+
+    @media screen and (max-width: 880px) {
+        justify-content: flex-start;
+        padding: 0 4px;
+    }
+}
+
+.images_col {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.bigger {
+    height: 325px;
+}
+.smaller {
+    height: 265px;
+}
+
+.gender {
+    writing-mode: tb-rl;
+    text-orientation: sideways-right;
+    transform: rotate(-180deg);
+    text-align: end !important;
+    padding-right: 20px;
+    font-weight: 700;
+}
+.image {
+    display: flex;
+    vertical-align: middle;
+}

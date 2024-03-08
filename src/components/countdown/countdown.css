@@ -1,0 +1,36 @@
+.background_img_5 {
+    position: absolute;
+    inset: 0;
+    background-image: url(../../assets/images/petur_4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 69px 0;
+    gap: 24px;
+}
+
+.date_container {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.date {
+    font-size: 48px !important;
+    text-align: left !important;
+
+    @media screen and (max-width: 400px) {
+        font-size: 36px !important;
+    }
+}
+
+.date_name {
+    text-align: left;
+    font-size: 12px !important;
+}

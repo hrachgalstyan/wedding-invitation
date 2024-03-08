@@ -1,0 +1,96 @@
+.background_img_3 {
+    position: absolute;
+    inset: 0;
+    background-image: url(../../assets/images/petur_3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 616px;
+}
+
+.timing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 69px 0;
+    gap: 24px;
+}
+
+.timelines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.timeline_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 21px;
+    padding: 12px;
+}
+
+.timeline_time {
+}
+
+.timeline_img {
+    width: 74px;
+    height: 74px;
+}
+
+.timeline_texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 8px;
+    width: 180px;
+}
+
+.timeline_title {
+    font-size: 18px !important;
+    text-align: left !important;
+}
+
+.timeline_desc {
+    font-size: 13px !important;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: left !important;
+}
+
+.timeline_didiver {
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 648px) {
+    .timeline_item {
+        gap: 12px;
+        padding: 6px;
+    }
+
+    .timeline_texts {
+        width: 100px;
+    }
+
+    .timeline_time {
+        font-size: 36px !important;
+    }
+
+    .timeline_title {
+        font-size: 14px !important;
+    }
+
+    .timeline_img {
+        width: 54px;
+        height: 54px;
+    }
+
+    .timeline_desc {
+        font-size: 10px !important;
+    }
+
+    .timeline_didiver {
+        margin-right: 0px;
+    }
+}

@@ -1,0 +1,53 @@
+.top {
+    padding: 28px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_section {
+    padding: 100px 0;
+}
+
+.background_img_1 {
+    position: absolute;
+    inset: 0;
+    background-image: url(../../assets/images/petur_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 760px;
+    opacity: 45%;
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.divider {
+    width: 100px;
+    height: 1px;
+    background-color: rgba(133, 133, 133, 1);
+}
+.reason {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0;
+    gap: 12px;
+}
+
+.we_are_marry {
+    font-size: 64px;
+}
+
+.date_1 {
+    font-size: 28px !important;
+    font-weight: 550;
+}
+
+.arrow {
+    animation: arrow 1s 0s linear infinite;
+}

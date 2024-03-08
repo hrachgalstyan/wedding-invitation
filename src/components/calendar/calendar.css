@@ -1,0 +1,76 @@
+.background_img_2 {
+    position: absolute;
+    inset: 0;
+    background-image: url(../../assets/images/petur_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1200px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 0;
+    gap: 24px;
+}
+
+.center_text {
+    padding: 24px 0;
+    font-size: 36px;
+}
+
+
+.calendar {
+    padding-top: 28px;
+}
+
+tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 24px;
+}
+
+td,
+th {
+    position: relative;
+    width: 18px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.ring {
+    position: absolute;
+    top: -29px;
+    left: -21px;
+
+    animation: ring 4s infinite linear;
+}
+
+@keyframes ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(15deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

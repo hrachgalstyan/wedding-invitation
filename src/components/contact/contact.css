@@ -1,0 +1,21 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 69px 0;
+    gap: 24px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+}
+.phone a {
+    text-decoration-line: none;
+    color: #000000;
+    line-height: 24px;
+    font-size: 20px;
+}
+.phone img {
+    margin-top: 24px;
+}
