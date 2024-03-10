@@ -11,6 +11,10 @@ export const sendMail = async (prevState, formData) => {
     const name = formData.get("name");
     const reason = formData.get("reason");
 
+    if (!name || !reason) {
+      return { success: false, message: "Խնդրում ենք լրացնել բոլոր դաշտերը" };
+    }
+
     const transporter = nodemailer.createTransport({
       host: "smtp-mail.outlook.com",
       port: 587,

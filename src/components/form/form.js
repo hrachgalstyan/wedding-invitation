@@ -17,6 +17,9 @@ const Form = () => {
   useEffect(() => {
     if (state.success && ref.current) {
       ref.current.reset();
+      alert("Շնորհակալ ենք Ձեր պատասխանի համար. Կհանդիպենք շուտով... ");
+    } else if (!state.success && state.message) {
+      alert(state.message);
     }
   }, [state, state.success]);
 

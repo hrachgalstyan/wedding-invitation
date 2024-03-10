@@ -18,7 +18,7 @@ export default function PlaceSection() {
           className="map_link"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.google.com/maps/dir//Villa+Restaurant+Complex+10%2F2,+15+Yerevan+0089/@40.1866321,44.6026052,357m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x406aa4a1140b4019:0xf0bcc60528784d89!2m2!1d44.6034511!2d40.1864396?entry=ttu"
+          href="https://yandex.by/maps/10262/yerevan/?ll=44.603851%2C40.186179&mode=routes&rtext=40.186360%2C44.603565~40.186360%2C44.603565&rtt=auto&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D120480234040~ymapsbm1%3A%2F%2Forg%3Foid%3D120480234040&z=19.12"
         >
           <p className="regular map_link_text">Տեսնել քարտեզի վրա</p>
           <Image alt={"arrow"} src={ArrowRight}/>
